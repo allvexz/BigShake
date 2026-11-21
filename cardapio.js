@@ -36,11 +36,11 @@ const SABORES_MILKSHAKE_SUGESTAO = [
 
 // PRECO_PROVISORIO_DEMO
 const PRECOS_PROVISORIOS_PICOLES = [
-  { nome: "Picolé de fruta", price: 2.5, image: "assets/picole-fruta.png" },
+  { nome: "Picolé de fruta", price: 2.5, image: "./picole-fruta.png" },
   { nome: "Picolé de leite", price: 3.5, image: "https://images.unsplash.com/photo-1567206563064-6f60f40a2b57?auto=format&fit=crop&w=700&q=85" },
   { nome: "Picolé de chocolate", price: 4, image: "https://images.unsplash.com/photo-1488900128323-21503983a07e?auto=format&fit=crop&w=700&q=85" },
-  { nome: "Picolé recheado", price: 5, image: "assets/picole-recheado.png" },
-  { nome: "Picolé premium", price: 12, image: "assets/picole-premium.png" }
+  { nome: "Picolé recheado", price: 5, image: "./picole-recheado.png" },
+  { nome: "Picolé premium", price: 12, image: "./picole-premium.png" }
 ];
 
 const PRECO_INFORMADO_POTE = { nome: "Pote de Sorvete", price: 20 };
@@ -135,7 +135,7 @@ const CARDAPIO = [
     priceType: "informed",
     price: PRECO_INFORMADO_POTE.price,
     priceLabel: "Preço informado",
-    image: "assets/pote-sorvete.png",
+    image: "./pote-sorvete.png",
     alt: "Imagem ilustrativa de pote de sorvete"
   },
   {
@@ -149,7 +149,7 @@ const CARDAPIO = [
     sabor: PRECO_PROVISORIO_SALGADO.sabor,
     peso: PRECO_PROVISORIO_SALGADO.peso,
     priceLabel: "Preço demonstrativo provisório",
-    image: "assets/gulao-assado.png",
+    image: "./gulao-assado.png",
     alt: "Salgadinho Gulão Assado sabor churrasco, embalagem de 120 g"
   },
   ...PRECOS_PROVISORIOS_BALAS_DOCES.map((product, index) => ({
@@ -162,12 +162,12 @@ const CARDAPIO = [
     price: product.price,
     priceLabel: "Preço provisório por unidade",
     image: product.nome === "Halls"
-      ? "assets/halls.png"
+      ? "./halls.png"
       : product.nome === "Trident"
-        ? "assets/trident.png"
+        ? "./trident.png"
         : product.nome === "Pirulito"
-          ? "assets/pirulito.png"
-        : "assets/balas-doces.png",
+          ? "./pirulito.png"
+        : "./balas-doces.png",
     alt: `Imagem ilustrativa de ${product.nome.toLowerCase()}`
   }))
 ];
