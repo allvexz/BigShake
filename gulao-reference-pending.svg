@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 500">
+  <rect width="700" height="500" fill="#FFF5E9"/>
+  <ellipse cx="350" cy="425" rx="230" ry="28" fill="#35105C" opacity=".12"/>
+  <g transform="rotate(-4 350 250)">
+    <path d="M130 105 Q350 70 570 105 L530 390 Q350 420 170 390 Z" fill="#7026A5" stroke="#35105C" stroke-width="10"/>
+    <path d="M170 390 Q350 420 530 390 L548 420 Q350 458 152 420 Z" fill="#EC4899"/>
+    <rect x="205" y="150" width="290" height="190" rx="28" fill="#FFF" opacity=".96"/>
+    <text x="350" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="34" font-weight="700" fill="#35105C">GULÃO</text>
+    <text x="350" y="250" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#7026A5">ASSADO</text>
+    <text x="350" y="292" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="#35105C">Sabor churrasco</text>
+    <text x="350" y="325" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" fill="#725F7E">120 g</text>
+  </g>
+</svg>
